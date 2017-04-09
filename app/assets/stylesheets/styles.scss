@@ -1,0 +1,46 @@
+/*
+ * ============================================================================
+ * General CSS
+ * ============================================================================
+ */
+
+.hidden {
+  display: none;
+}
+
+nav #cmu-logo {
+  margin: 5px 0px;
+  width: 25%;
+  min-width: 200px;
+}
+
+nav #pds-logo {
+  padding-top: 5px;
+  width: 30%;
+  max-height: 64px;
+}
+
+nav .nav-content {
+  background-color: $cmu-dark-gray;
+}
+
+
+/*
+ * ============================================================================
+ * Assessment CSS
+ * ============================================================================
+ */
+
+#assessment-progress {
+    width: 100%;
+    background-color: grey;
+}
+
+#assessment-bar {
+    width: 0%;
+    height: 30px;
+    background-color: green;
+    text-align: center;
+    line-height: 30px;
+    color: white; 
+}
